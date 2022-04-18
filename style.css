@@ -1,0 +1,80 @@
+*{
+    font-weight:bold;
+    font-size: 28px;
+    font-family: arial;
+    color:black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.wrapper{
+    background-color:rgb(146, 141, 141) ;
+    border: 2px solid grey;
+    width: 300px;
+    height:450px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+
+}
+.skin{
+    flex: 2;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.screenInput{
+    flex: 50%; 
+   background-color:whitesmoke;
+   text-align: right;
+   word-wrap: break-word;
+   padding: 10px;
+    
+} 
+.screenOutput{
+    flex: 50%; 
+    background-color: rgb(165, 173, 167);
+    border-radius: 4px;
+    margin: 2px;
+    text-align: right;
+    word-wrap: break-word;
+    padding: 10px;
+   
+ } 
+ 
+
+ .btnInterface{
+    flex: 3;
+    background-color:whitesmoke;
+}
+.btnSpace ul{
+    display: flex;
+    list-style: none;
+        
+}
+.btnSpace ul li{
+    background-color: grey;
+    margin: 2px;
+    border-radius: 5px;
+    width: 30%;
+    height:60px;
+
+    
+}
+.btnSpace .row1 .row2 .row3 .row4 .row5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+button{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
